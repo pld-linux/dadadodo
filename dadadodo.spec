@@ -2,10 +2,11 @@ Summary:	Exterminate All Rational Thought
 Summary(pl):	Zniszczyæ Wszystkie Racjonalne My¶li
 Name:		dadadodo
 Version:	1.03
-Release:	1
+Release:	2
 License:	GPL-like
 Group:		Applications/Text
 Source0:	http://www.jwz.org/dadadodo/%{name}-%{version}.tar.gz
+Patch0:		%{name}-ctype.patch
 URL:		http://www.jwz.org/dadadodo/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -16,12 +17,14 @@ sentences are nonsense; but sometimes they cut right through to the
 heart of the matter, and reveal hidden meanings.
 
 %description -l pl
-DadaDodo jest programem analizuj±cym teksty, a nastêpnie generuj±cym
-losowe sentencje. Czasami te sentencje s± nonsensowe, lecz zdarza siê,
-¿e trafiaj± w sedno, lub ods³aniaj± ukryte znaczenia.
+DadaDodo jest programem analizuj±cym teksty pod k±tem
+prawdopodobieñstwa pojawiania siê s³ów, a nastêpnie generuj±cym losowe
+zdania. Czasami te zdania s± bez sensu, lecz zdarza siê, ¿e trafiaj± w
+sedno, lub ods³aniaj± ukryte znaczenia.
 
 %prep
 %setup -q
+%patch -p1
 
 %build
 %{__make} \
