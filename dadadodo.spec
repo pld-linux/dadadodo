@@ -2,7 +2,7 @@ Summary:	Exterminate All Rational Thought
 Summary(pl):	Zniszczyæ Wszystkie Racjonalne My¶li
 Name:		dadadodo
 Version:	1.04
-Release:	2
+Release:	3
 License:	GPL-like
 Group:		Applications/Text
 Source0:	http://www.jwz.org/dadadodo/%{name}-%{version}.tar.gz
