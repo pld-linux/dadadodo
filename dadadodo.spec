@@ -3,7 +3,7 @@ Summary(pl):	Zniszczyæ Wszystkie Racjonalne My¶li
 Name:		dadadodo
 Version:	1.03
 Release:	1
-License:	GPL like
+License:	GPL-like
 Group:		Applications/Text
 Source0:	http://www.jwz.org/dadadodo/%{name}-%{version}.tar.gz
 URL:		http://www.jwz.org/dadadodo/
