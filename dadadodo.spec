@@ -17,7 +17,7 @@ heart of the matter, and reveal hidden meanings.
 
 %description -l pl
 DadaDodo jest programem analizuj±cym teksty, a nastêpnie generuj±cym
-losowe sentencje. Czasami te sentencje s± nonsensowe, lecz zda¿a siê,
+losowe sentencje. Czasami te sentencje s± nonsensowe, lecz zdarza siê,
 ¿e trafiaj± w sedno, lub ods³aniaj± ukryte znaczenia.
 
 %prep
