@@ -6,6 +6,7 @@ Release:	1
 License:	GPL-like
 Group:		Applications/Text
 Source0:	http://www.jwz.org/dadadodo/%{name}-%{version}.tar.gz
+# Source0-md5:	d3ff69c4e71c328586b1c6ca2130a4b3
 Patch0:		%{name}-ctype.patch
 URL:		http://www.jwz.org/dadadodo/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
