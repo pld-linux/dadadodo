@@ -1,5 +1,5 @@
 Summary:	Exterminate All Rational Thought
-Summary(pl.UTF-8):   Zniszczyć Wszystkie Racjonalne Myśli
+Summary(pl.UTF-8):	Zniszczyć Wszystkie Racjonalne Myśli
 Name:		dadadodo
 Version:	1.04
 Release:	3
